@@ -1,0 +1,23 @@
+1. node js
+2. android studio
+3. java
+4. vs code
+
+
+https://docs.expo.dev
+run - npx create-expo-app@latest --template
+next - blank
+
+- npm run android
+- npm run ios
+- npm run web
+
+
+error
+-----
+delete node_modules folder and npm install
+
+
+install
+-------
+https://www.vysor.io

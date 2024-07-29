@@ -41,3 +41,15 @@ react native vs react
 2. unidirectional flow - (props)  data pass from child to parent , not from parent to child
 3. re-render on changes 
 4. virtual dom - only refresh particular tag if change is need, not entire page
+
+
+
+component - core component - piece of reusable code 
+view - container
+
+
+state and class component
+-------------------------
+
+class component - manage local state and life cycle methods
+now both are same using hooks
