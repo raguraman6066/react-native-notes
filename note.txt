@@ -1,0 +1,43 @@
+react native
+------------
+1. js framework for native mobile apps - android and ios for single code
+2. uses react framework
+3. officially available from march 2015
+4. initially used internally by fb
+5. for cross platformm apps
+
+why
+---
+1. cross platform
+2. js
+3. performance
+4. developer's community
+5. getting better
+6. used in many companies - easy to develop in same time for ios and android apps
+7. career opportunities
+
+prerequisite
+------------
+1. js
+2. react
+3. android studio
+
+working
+-------
+1. web apps lives in mobile browser with webview, without much changes website or webapp works fine in mobiles
+we have cordova/phoneGap
+2. problem - slower than native apps for heavy apps, webview not provide all options mobile provides
+
+solution
+--------
+1. create code in out preferred language and compile to native,
+2. in our case - we use js engine in mobile and execute js there
+3. native controls are mapped to js objects and functions 
+4. react native uses jscore under the hood, which is default js engine in ios and safari
+
+react native vs react
+---------------------
+1. single rendering entry point - start from one root html element
+2. unidirectional flow - (props)  data pass from child to parent , not from parent to child
+3. re-render on changes 
+4. virtual dom - only refresh particular tag if change is need, not entire page
